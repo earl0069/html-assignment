@@ -58,5 +58,5 @@ header {
 
 /* Hobby list odd items background color */
 .hobbies-list li:nth-child(odd) {
-    background-color: rgba(183, 124, 183, 0.717);
+    background-color: rgba(169, 127, 169, 0.717);
 }
