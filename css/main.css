@@ -60,3 +60,10 @@ header {
 .hobbies-list li:nth-child(odd) {
     background-color: rgba(169, 127, 169, 0.717);
 }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
