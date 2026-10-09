@@ -53,7 +53,7 @@ nav a:focus {
 .hobbies-list {
     list-style-type: square;
 }
-{
-    header
-        colour: black;
+/* Header text color */
+header {
+    color: black;
 }
