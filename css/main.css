@@ -1,0 +1,52 @@
+/* Inheritance */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* Multiple element selector */
+header, footer {
+    background-color: #d9e8e3;
+    padding: 20px;
+}
+
+/* Class selector */
+.site-title {
+    color: #345b50;
+}
+
+/* ID selector */
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+/* Hobby list square bullets */
+.hobby-list {
+    list-style-type: square;
+}
+
+/* Odd numbered hobby items */
+.hobby-list li:nth-child(odd) {
+    background-color: #e8f1ed;
+}
+
+/* Remove navigation bullets */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Navigation links */
+nav a {
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 1px solid #345b50;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Hover and focus */
+nav a:hover,
+nav a:focus {
+    background-color: #b5d3c6;
+}
